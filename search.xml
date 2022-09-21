@@ -5,15 +5,15 @@
     
     <entry>
       <title>html问题</title>
-      <link href="/ceshi/cl8azruzj0003x47f01932wxa/"/>
-      <url>/ceshi/cl8azruzj0003x47f01932wxa/</url>
+      <link href="/web/1/"/>
+      <url>/web/1/</url>
       
-        <content type="html"><![CDATA[<h1>ceshi</h1>]]></content>
+        <content type="html"><![CDATA[<h1>常见问题以及解决办法</h1> <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;zh&quot;</span>&gt;</span>...<span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure><p>通过 <code>&lt;html&gt;</code> 标签中的 <code>lang</code> 属性对每张页面中的主要语言进行声明</p><p>ISO 639-1 语言代码</p><table><thead><tr><th>Language</th><th>ISO Code</th></tr></thead><tbody><tr><td>Chinese(Simplified)</td><td>zh</td></tr><tr><td>English</td><td>en</td></tr></tbody></table><hr>]]></content>
       
       
       <categories>
           
-          <category> ceshi </category>
+          <category> web </category>
           
       </categories>
       
@@ -30,8 +30,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/uncategorized/cl8azruzg0001x47f1d2hb36i/"/>
-      <url>/uncategorized/cl8azruzg0001x47f1d2hb36i/</url>
+      <link href="/uncategorized/cl8b01ert0001i87f6slp4gos/"/>
+      <url>/uncategorized/cl8b01ert0001i87f6slp4gos/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>. 🔥</p><p>公式测试：$1^2$</p><h2 id="Quick-Start"><a class="header-anchor" href="#Quick-Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a class="header-anchor" href="#Create-a-new-post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a class="header-anchor" href="#Run-server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a class="header-anchor" href="#Generate-static-files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a class="header-anchor" href="#Deploy-to-remote-sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
