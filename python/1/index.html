@@ -9,7 +9,7 @@
     <meta name="description" content="最近发现了一款练习中文打字的软件，链接直达，支持中文词组，支持自定义词组。  练习一段时间后发现词组数量有限，再练习下去就没有效果了，简单放个图：  于是在网上找到了中文常用词，但是下载的文档格式并不是网站所支持的。据我所知，自定义规则的文字处理，用正则表达式效果不错，我本人比较熟悉Python，所以最后决定用Python来完成本次的文本格式化。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python正则表达式应用">
-<meta property="og:url" content="https://isjingbin.site/python/2/index.html">
+<meta property="og:url" content="https://isjingbin.site/python/1/index.html">
 <meta property="og:site_name" content="Jingbin&#39;s site">
 <meta property="og:description" content="最近发现了一款练习中文打字的软件，链接直达，支持中文词组，支持自定义词组。  练习一段时间后发现词组数量有限，再练习下去就没有效果了，简单放个图：  于是在网上找到了中文常用词，但是下载的文档格式并不是网站所支持的。据我所知，自定义规则的文字处理，用正则表达式效果不错，我本人比较熟悉Python，所以最后决定用Python来完成本次的文本格式化。">
 <meta property="og:locale" content="zh_CN">
@@ -17,7 +17,7 @@
 <meta property="og:image" content="https://picgo-1301623400.cos.ap-shanghai.myqcloud.com/Picgo/202210191334914.png">
 <meta property="og:image" content="https://picgo-1301623400.cos.ap-shanghai.myqcloud.com/Picgo/202210191343339.png">
 <meta property="article:published_time" content="2022-10-19T05:25:58.000Z">
-<meta property="article:modified_time" content="2022-10-19T05:48:22.173Z">
+<meta property="article:modified_time" content="2022-12-19T13:58:03.343Z">
 <meta property="article:author" content="Jingbin Lin">
 <meta property="article:tag" content="python,正则表达式">
 <meta name="twitter:card" content="summary">
@@ -93,7 +93,7 @@
     <span id="actions">
       <ul>
         
-        <li><a class="icon" aria-label="上一篇" href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/3/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="上一篇" href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/1/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
         <li><a class="icon" aria-label="下一篇" href="/web/1/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
@@ -109,17 +109,17 @@
     <br/>
     <div id="share" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://isjingbin.site/python/2/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://isjingbin.site/python/2/&text=python正则表达式应用"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://isjingbin.site/python/2/&is_video=false&description=python正则表达式应用"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=python正则表达式应用&body=Check out this article: https://isjingbin.site/python/2/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://isjingbin.site/python/2/&name=python正则表达式应用&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://isjingbin.site/python/2/&t=python正则表达式应用"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://isjingbin.site/python/1/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://isjingbin.site/python/1/&text=python正则表达式应用"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://isjingbin.site/python/1/&is_video=false&description=python正则表达式应用"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=python正则表达式应用&body=Check out this article: https://isjingbin.site/python/1/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://isjingbin.site/python/1/&name=python正则表达式应用&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://isjingbin.site/python/1/&t=python正则表达式应用"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
@@ -150,7 +150,7 @@
       
         <time datetime="2022-10-19T05:25:58.000Z" itemprop="datePublished">2022-10-19</time>
         
-        (Updated: <time datetime="2022-10-19T05:48:22.173Z" itemprop="dateModified">2022-10-19</time>)
+        (Updated: <time datetime="2022-12-19T13:58:03.343Z" itemprop="dateModified">2022-12-19</time>)
         
       
     </div>
@@ -214,17 +214,17 @@
 
     <div id="share-footer" style="display: none">
       <ul>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://isjingbin.site/python/2/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://isjingbin.site/python/2/&text=python正则表达式应用"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://isjingbin.site/python/2/&is_video=false&description=python正则表达式应用"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=python正则表达式应用&body=Check out this article: https://isjingbin.site/python/2/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://isjingbin.site/python/2/&title=python正则表达式应用"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://isjingbin.site/python/2/&name=python正则表达式应用&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://isjingbin.site/python/2/&t=python正则表达式应用"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://isjingbin.site/python/1/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://isjingbin.site/python/1/&text=python正则表达式应用"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://isjingbin.site/python/1/&is_video=false&description=python正则表达式应用"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=python正则表达式应用&body=Check out this article: https://isjingbin.site/python/1/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://isjingbin.site/python/1/&title=python正则表达式应用"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://isjingbin.site/python/1/&name=python正则表达式应用&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://isjingbin.site/python/1/&t=python正则表达式应用"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
