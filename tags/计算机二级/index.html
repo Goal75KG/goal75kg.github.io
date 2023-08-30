@@ -39,79 +39,96 @@
             
             
             
-                <div class="shadow-drop-2-bottom index-main">
+                <div class="shadow-drop-2-bottom paper-main">
                     
-    <div class="index-header-line" >
-        
-            <span id="quote"></span>
-            <script>
-                function displayHitokoto() {
-                    fetch('https://v1.hitokoto.cn/?c=k')
-                        .then(function (res) {
-                            return res.json();
-                        })
-                        .then(function (data) {
-                            var hitokoto = document.getElementById('quote')
-                            hitokoto.innerText = data.hitokoto;
-                        })
-                        .catch(function (err) {
-                            console.error(err);
-                        });
-                }
-
-                displayHitokoto(); // 调用函数以获取和显示一言内容
-            </script>
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">Jingbin&#39;s blog</a> 
+            <span class="description"></span> 
+        </div>
         
     </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">文章</a></li>
+            
+        
+            
+                <li><a href="/about/">关于</a></li>
+            
+        
+            
+                <li><a href="/categories/">分类</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
 
+                    
+                            <div class="archive-list">
+  <ul class="archive">
 
-    <div style="text-align: left;">
-
-    <a class="index-logo" href="/">Jingbin&#39;s blog</a>
-    <div style="margin-bottom: 12px;"> 
-        首页
-        
-            
-        
-            
-                &nbsp / &nbsp<a href="/list/">文章</a>
-            
-        
-            
-                &nbsp / &nbsp<a href="/about/">关于</a>
-            
-        
-            
-                &nbsp / &nbsp<a href="/categories/">分类</a>
-            
-        
-    </div>
+    
+    <span>📌<i>计算机二级</i></span>
+      
+      
+      
+    
+    
+    
+  
+    
+        <li>
+        <span class="archive-date">2023-08-27</span>
+        <div class="archive-main">
+            <a class="archive-title" href="/2023/08/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7C%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/">计算机二级C语言学习日记</a>
+        </div>
+        </li>
+    
+  
+  </ul>
 </div>
 
-                    <div class="post-main">
-    
-    
-       
-       
-       
-            <div class="post-md">
-                <h1>This is my blog.</h1>
-
-            </div>
-    
-</div> 
+ 
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                    
                     <div class="footer">
+    
+        <span> 
+            © 1949-2023 China 
+
+            
+                
+
+            
+        </span>
     
 </div>
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
     
-         
+            <span>🌊看过大海的人不会忘记海的广阔🌊</span>
             
-                
-                <span class="index-footer-last-span">Email:<a href="mailto:jingbin.lin@outlook.com" title="jingbin.lin@outlook.com">jingbin.lin@outlook.com</a></span>
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
             
-        
     
 </div>
 
