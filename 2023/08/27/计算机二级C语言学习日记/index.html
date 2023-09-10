@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
     <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
@@ -94,7 +94,7 @@
 
     <div class="post-md">
         
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link"><span class="post-toc-text">软件环境</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link"><span class="post-toc-text">专项训练</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E7%9C%9F%E9%A2%982-2"><span class="post-toc-text">真题2-2</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E7%9C%9F%E9%A2%984-2"><span class="post-toc-text">真题4-2</span></a></li></ol></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link"><span class="post-toc-text">软件环境</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link"><span class="post-toc-text">专项训练</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E7%9C%9F%E9%A2%982-2"><span class="post-toc-text">真题2-2</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E7%9C%9F%E9%A2%984-2"><span class="post-toc-text">真题4-2</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E7%9C%9F%E9%A2%985-1"><span class="post-toc-text">*真题5-1</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E7%9C%9F%E9%A2%985-3"><span class="post-toc-text">真题5-3</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E7%9C%9F%E9%A2%986-3"><span class="post-toc-text">真题6-3</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E7%9C%9F%E9%A2%987-1"><span class="post-toc-text">真题7-1</span></a></li></ol></li></ol>
         
         <p>[TOC]</p>
 <h1>软件环境</h1>
@@ -117,6 +117,62 @@
 112031/10 == 11203
 ....
 </code></pre>
+<h2 id="真题5-1">*真题5-1</h2>
+<p>链表真的好懵</p>
+<h2 id="真题5-3">真题5-3</h2>
+<p>阶乘的代码表达</p>
+<pre><code class="language-c">int i,m=1,n=15;
+for(i=1;i&lt;=n;i++)
+{
+    m = m * i;
+}
+</code></pre>
+<h2 id="真题6-3">真题6-3</h2>
+<pre><code class="language-c">int fun(int x[], int e, int *sum)
+{
+	int i,count=0;
+	*sum = 0; // 注意指针使用前先对地址初始化
+	for(i=0;i&lt;N;i++){
+		if(x[i]%e==0)
+			count++;
+		else
+		*sum += x[i];
+	}return count;
+}
+</code></pre>
+<h2 id="真题7-1">真题7-1</h2>
+<p>*s<ins>和s</ins>区别</p>
+<p><code>*s++</code>：</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><code>*s++</code> 是一个组合表达式，首先会取出指针 <code>s</code> 指向的元素的值，然后再将指针 <code>s</code> 后移一个位置。</p>
+</li>
+<li class="lvl-2">
+<p>执行顺序是先获取当前位置的值，然后再将指针自增。</p>
+</li>
+</ul>
+<p>示例：</p>
+<pre><code class="language-c">int arr[] = {1, 2, 3, 4};
+int *s = arr;
+int value = *s++;
+// value 的值为 1，然后 s 指向 arr[1]
+</code></pre>
+<p><code>s++</code>：</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><code>s++</code> 是一个独立的自增表达式，只会将指针 <code>s</code> 后移一个位置，不会取出元素的值。</p>
+</li>
+<li class="lvl-2">
+<p>执行顺序是先将指针自增，然后返回自增前的指针值。</p>
+</li>
+</ul>
+<p>示例：</p>
+<pre><code class="language-c">int arr[] = {1, 2, 3, 4};
+int *s = arr;
+s++;
+// 现在 s 指向 arr[1]
+</code></pre>
+<p><span class="github-emoji"><span>💨</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a8.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
 
     </div>
 
